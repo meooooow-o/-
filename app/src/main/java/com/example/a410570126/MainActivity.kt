@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         var index = 0;
         var riddleList =
-            mutableListOf("0000，猜一個成語?:四大皆空", "九十九，打一字?:白", "0+0=1，猜一成語?:無中生有", "台灣女孩，猜一字?:始")
+            mutableListOf("0000，猜一個成語?:四大皆空!", "九十九，打一字?:白", "0+0=1，猜一成語?:無中生有", "台灣女孩，猜一字?:始")
         edAnswer.text = null
         tvResult.text = null
         btnRiddle.setOnClickListener {
